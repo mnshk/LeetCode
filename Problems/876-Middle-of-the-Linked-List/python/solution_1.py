@@ -1,5 +1,10 @@
 from typing import Optional
-from helpers import ListNode
+
+
+class ListNode:
+    def __init__(self, val: int = 0, next: Optional[ListNode] = None):
+        self.val = val
+        self.next = next
 
 
 class Solution1:
@@ -12,7 +17,7 @@ class Solution1:
     then traverse till the half of the length to find the middle node.
     """
 
-    def middleNode(self, head: Optional[ListNode[int]]) -> Optional[ListNode[int]]:
+    def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
         length = 0
         curr = head

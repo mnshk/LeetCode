@@ -1,5 +1,5 @@
 from typing import Optional
-from helpers import ListNode
+from solution_1 import ListNode
 
 
 class Solution2:
@@ -12,7 +12,7 @@ class Solution2:
     the slow pointer will be exactly at the midpoint.
     """
 
-    def middleNode(self, head: Optional[ListNode[int]]) -> Optional[ListNode[int]]:
+    def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
         # Initialize both slow and fast pointers pointing to head
         slow = head
