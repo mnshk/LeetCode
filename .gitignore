@@ -1,2 +1,7 @@
+# Python
 __pycache__
 .pytest_cache
+
+# Java
+.idea/
+target/
