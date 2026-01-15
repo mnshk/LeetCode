@@ -3,6 +3,10 @@ from typing import List
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
+        """
+        Time complexity: O(N)
+        Space complexity: O(1)
+        """
 
         # If there were only positive numbers in this list
         # then the maximum sub-array sum would always have been the sum of the entire list.
